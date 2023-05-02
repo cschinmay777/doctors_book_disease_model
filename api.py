@@ -3,6 +3,7 @@ import numpy as np
 import tensorflow as tf
 import pandas as pd
 import json 
+import gunicorn
 app= Flask(__name__)
 
 col=['itching',
